@@ -30,6 +30,11 @@
   justify-self: left;
 }
 
+.nav {
+  display: grid;
+  align-items: center;
+}
+
 .menu ul {
  display: grid;
  grid-template-columns: repeat(4, 1fr);
@@ -68,6 +73,11 @@
 .nav {
   background-color: #FF7755;
   grid-column: 2 / -1;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nav ul li {
